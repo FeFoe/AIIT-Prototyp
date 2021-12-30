@@ -24,7 +24,7 @@ void loop() {
   delay(10000);
   digitalWrite(BLUE, LOW); // Turn the LED on
   delay(10000);
-  //  digitalWrite(BUZZER, HIGH); // Turn the LED on
+  digitalWrite(BUZZER, HIGH); // Turn the LED on
   delay(10000);
   digitalWrite(BUZZER, LOW); // Turn the LED on
 }
